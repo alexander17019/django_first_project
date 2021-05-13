@@ -1,1 +1,3 @@
-# django_first_project
+# data app screenshot
+
+/data app screenshot.png
