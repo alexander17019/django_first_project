@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.http import JsonResponse
 
 # Create your views here.
 
@@ -11,5 +11,5 @@ def index(request):
     "Message" : "Hi, mentor, you're doing a great job"
 }
 
-    return HttpResponse(data)
+    return JsonResponse(data)
 
